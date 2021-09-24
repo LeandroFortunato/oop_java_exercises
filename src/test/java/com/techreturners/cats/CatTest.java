@@ -1,11 +1,13 @@
 package com.techreturners.cats;
 
 import org.junit.Test;
+import org.junit.Ignore;
 
 import static org.junit.Assert.*;
 
 public class CatTest {
 
+    
     @Test
     public void checkCatIsAwake() {
         Cat domesticCat = new DomesticCat();
@@ -63,4 +65,5 @@ public class CatTest {
         Cat domesticCat = new DomesticCat();
         assertEquals("Purrrrrrr", domesticCat.eat());
     }
-}
+
+ }
